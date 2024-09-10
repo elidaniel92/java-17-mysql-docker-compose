@@ -16,7 +16,7 @@ This project serves as a boilerplate for building Java 17 applications using the
 - [**Java 17**](https://www.oracle.com/br/java/technologies/downloads/): The latest long-term support version of Java, ensuring modern language features and improvements.
 - [**Maven**](https://maven.apache.org/): Used for project management and dependency management.
 - [**Docker Compose**](https://docs.docker.com/compose/): Simplifies local development by allowing you to run the entire application stack (including MySQL) within Docker containers.
-- [**Dirk**](https://github.com/int4/dirk): A lightweight dependency injection library for managing object creation and dependencies.
+- [**Dirk**](https://github.com/hjohn/Dirk): A lightweight dependency injection library for managing object creation and dependencies.
 - [**SLF4J with Log4j2**](https://logging.apache.org/log4j/2.x/): Provides robust and flexible logging through the SLF4J API, using Log4j2 as the logging backend.
 - [**JDBC**](https://docs.oracle.com/javase/tutorial/jdbc/): Utilized for establishing a connection to relational databases and performing SQL operations.
 - [**MySQL Database**](https://www.mysql.com/): The database for storing and managing application data.
