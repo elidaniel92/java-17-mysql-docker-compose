@@ -1,6 +1,6 @@
 # java-17-mysql-docker-compose
 
-## TLDR
+## **TL;DR**
 
 Windows - Powershell
 ```
