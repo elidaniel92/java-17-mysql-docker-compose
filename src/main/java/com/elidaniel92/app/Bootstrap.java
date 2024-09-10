@@ -26,10 +26,11 @@ public class Bootstrap {
     public void initialize() {
         log.info("Initializing all services...");
         try {
-            databaseConnection.connect();
-            scheduler.start();
+            databaseConnection.connect();            
         } catch (SQLException e) {
             log.error("Database connection failed, finishing application", e);
+            return;
         }
+        scheduler.start();
     }
 }
